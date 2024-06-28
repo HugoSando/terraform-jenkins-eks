@@ -1,0 +1,47 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# Ignore sensitive information
+*.pem
+*.key
+*.p12
+*.cer
+*.csr
+*.srl
+
+# Ignore Jenkins specific files
+*.log
+workspace/
+jobs/
+config-history/
+logs/
+war/
+*.old
+*.bak
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environments if used for scripting
+venv/
+__pycache__/
+
+# Ignore editor specific files
+*.swp
+*~
+.idea/
+.vscode/
+
+# Ignore backup files
+*.bak
+*.tmp
