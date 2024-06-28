@@ -75,6 +75,7 @@ module "ec2_instance" {
   associate_public_ip_address = true
   user_data                   = file("jenkins-install.sh")
   availability_zone           = data.aws_availability_zones.azs.names[0]
+  iam_instance_profile        = var.instance_profile
 
   tags = {
     Name        = "Jenkins-Server"

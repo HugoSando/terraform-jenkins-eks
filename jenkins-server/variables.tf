@@ -12,3 +12,8 @@ variable "instance_type" {
   description = "Instance Type"
   type        = string
 }
+
+variable "instance_profile" {
+  description = "instance profile for the Role"
+  type        = string
+}
