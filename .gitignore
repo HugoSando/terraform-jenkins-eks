@@ -2,7 +2,7 @@
 *.tfstate
 *.tfstate.*
 crash.log
-*.tfvars
+jenkins-server/terraform.tfvars
 override.tf
 override.tf.json
 *_override.tf
